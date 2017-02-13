@@ -15,7 +15,7 @@ CACHE_FILE="$CACHE_DIR/imagemagick.tar.gz"
 if [ ! -f $CACHE_FILE ]; then
   # install imagemagick
   # ImageMagick-6.9.7-7.tar.gz
-  IMAGE_MAGICK_VERSION="6.9.7-6"
+  IMAGE_MAGICK_VERSION="6.9.7-0"
   IMAGE_MAGICK_FILE="ImageMagick-$IMAGE_MAGICK_VERSION.tar.gz"
   IMAGE_MAGICK_DIR="ImageMagick-$IMAGE_MAGICK_VERSION"
   IMAGE_MAGICK_URL="http://www.imagemagick.org/download/$IMAGE_MAGICK_FILE"
